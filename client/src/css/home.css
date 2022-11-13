@@ -1,0 +1,158 @@
+.homeOpenBg {
+  height: 100vh;
+  width: 100%;
+
+  object-fit: cover;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+.cwhite {
+  color: #fdfdff;
+}
+.carusel {
+  height: 100%;
+  width: 100%;
+}
+.carousel-caption {
+  bottom: 20% !important;
+}
+.carousel-caption h3 {
+  font-size: 3rem;
+  font-weight: 900 !important;
+  color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+}
+.carousel-item {
+  height: 100% !important;
+  font-size: 1.2rem;
+}
+.carousel-inner {
+  height: 100%;
+}
+.imgfull {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+.callnow {
+  padding: 15px 30px 15px 30px;
+  border-radius: 25px;
+  display: inline;
+  font-weight: 900;
+  border: 1px solid wheat;
+  color: #fdfdff;
+}
+.address {
+  margin-bottom: 50px;
+}
+.divcaruselaa {
+  height: 100%;
+  width: 100%;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../image/d5.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+
+.sec {
+  height: 65vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.rowsection {
+  width: 96%;
+}
+.bgblack {
+}
+
+.paddingsides {
+  width: 74%;
+  margin: auto;
+}
+.imagediv {
+  height: 100%;
+  width: 50%;
+}
+.image {
+  width: 540px;
+  height: 540px;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 50%;
+}
+.text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70%;
+  direction: rtl;
+}
+.center {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+.pere {
+  text-align: center;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.circulimg {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-image: url("../image/d1.jpg");
+  margin: auto;
+  background-size: cover;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+.spacebetween {
+  justify-content: space-between;
+}
+.hwmy {
+  height: 68vh;
+  margin-bottom: 200px;
+}
+.cblack {
+  color: black !important;
+}
+.txtblack {
+  color: black !important;
+  font-size: 15px;
+  min-height: 20vh;
+  direction: rtl;
+}
+.f {
+  color: chartreuse;
+}
+.heder {
+  font-weight: 900;
+}
+
+.bgbi {
+  margin-bottom: 200px;
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../image/d6.jpg");
+  background-size: cover;
+  object-fit: cover;
+  color: #fdfdff;
+  text-align: center;
+}
+
+.button2 {
+  padding: 10px 40px 10px 40px;
+  border-radius: 25px;
+  border: 1px solid rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 2rem;
+}

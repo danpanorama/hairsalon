@@ -1,0 +1,86 @@
+.all_gallery {
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+}
+.header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.gallery {
+  margin-top: 250px;
+  width: 1300px;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.centerit {
+  width: 100%;
+}
+.fourphotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 20px;
+}
+.imgSort {
+  height: 45vh;
+}
+.bigimage {
+  height: 60vh;
+}
+.img {
+  object-fit: cover;
+  background-size: cover;
+}
+.grid4-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.biggrid {
+  height: 100%;
+  width: 100%;
+}
+
+.disablepops {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.activpop {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.imagegallerypop {
+  width: 90%;
+  height: 90%;
+  background-color: black;
+}
+.im {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+.out {
+  padding: 10px 20px 10px 20px;
+  background-color: #262626;
+  color: white;
+  font-size: 2rem;
+
+  text-align: center;
+}

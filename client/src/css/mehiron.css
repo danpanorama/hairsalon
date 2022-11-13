@@ -1,0 +1,57 @@
+.mehirontable {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  border: none !important;
+  border-bottom: none !important;
+  margin-bottom: 30px;
+}
+.mehironheader {
+  direction: rtl;
+}
+.mehirontable2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.all_mehiron {
+  color: white;
+  background-color: #000000;
+  width: 80%;
+
+  margin: auto;
+  margin-bottom: 200px !important;
+}
+.spacebetween {
+  height: 1px;
+  width: 50%;
+
+  background-color: rgb(102, 101, 101);
+}
+.table {
+  padding: 40px 80px 40px 80px;
+  border: none !important;
+  border-bottom: none !important;
+}
+.imagecircul {
+  height: 50px;
+  width: 50px;
+  background-color: blueviolet !important;
+  border-radius: 50%;
+}
+.txtmehir {
+  font-weight: 700;
+  color: white;
+  direction: rtl;
+  margin: 0;
+  padding: 0 !important;
+  margin-right: 20px;
+  font-size: 16px;
+}
+.price {
+  font-weight: 700;
+  color: white;
+}

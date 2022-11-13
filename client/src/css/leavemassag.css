@@ -1,0 +1,41 @@
+.textarea {
+  width: 100%;
+  height: 20vh;
+  border: 1px solid rgb(199, 198, 198);
+  margin-bottom: 10px;
+}
+input:focus {
+  outline: none;
+}
+.input {
+  border: 1px solid rgb(199, 198, 198);
+  margin-right: 10px;
+  font-size: 1.5rem;
+  height: 5vh;
+  width: 100%;
+  direction: rtl;
+}
+.divflex {
+}
+.form {
+  padding-left: 5px;
+}
+.gridrow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.radio {
+  margin-top: 10px;
+  padding-left: 5px;
+}
+.buttonsend {
+  padding: 10px 40px 10px 40px;
+  margin-top: 20px;
+  background-color: rgb(47, 49, 43);
+  color: wheat;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 700;
+}

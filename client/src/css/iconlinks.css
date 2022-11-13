@@ -1,0 +1,27 @@
+.iconlinks {
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.allIcons {
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.icons {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  color: black;
+}
+.adminimage {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-image: url("./../image/d1.jpg");
+  background-size: cover;
+  object-fit: cover;
+}

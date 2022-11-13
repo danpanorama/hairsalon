@@ -1,0 +1,109 @@
+.grid {
+  height: 95vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 60px;
+}
+.padinserves {
+  background-color: white;
+  width: 1400px;
+  margin: auto;
+
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.grid212 {
+  height: 65vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.card2 {
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+
+  transition: all 0.5s ease;
+}
+.card {
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  outline: 1px solid rgb(196, 190, 190);
+  outline-offset: -20px;
+  transition: all 0.5s ease;
+}
+.card:hover {
+  outline: 1px solid rgb(255, 255, 255);
+  outline-offset: -50px;
+}
+.card:hover .trans {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+.trans {
+  transform: translateY(100px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+  border: 1px solid white;
+}
+.img1 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.577),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../image/d1.jpg");
+}
+.img2 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../image/d2.jpg");
+}
+.img3 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../image/d3.jpg");
+}
+.img4 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../image/d5.jpg");
+}
+.img5 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../image/d6.jpg");
+}
+.img6 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../image/d7.jpg");
+}
