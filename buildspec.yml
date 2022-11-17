@@ -22,6 +22,6 @@ phases:
       - yarn build
 artifacts:
   files:
-    - "**/*"
+    - "./client/src"
   discard-paths: no
-  base-directory: dist
+  base-directory: build
